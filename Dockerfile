@@ -7,7 +7,6 @@ MAINTAINER Romain Derocle "rderocle@gmail.com"
 
 # prevent debian errors
 ENV DEBIAN_FRONTEND noninteractive
-ENV LANG en_US.UTF-8
 
 # updates
 RUN \
