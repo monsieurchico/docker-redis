@@ -2,7 +2,7 @@
 # Redis Dockerfile
 # git@github.com:monsieurchico/docker-redis.git
 #
-FROM dockerfile/ubuntu
+FROM ubuntu:14.04
 MAINTAINER Romain Derocle "rderocle@gmail.com"
 
 # prevent debian errors
@@ -18,7 +18,7 @@ RUN \
 EXPOSE 6379
 
 # volumes
-VOLUME ["/etc/redis/redis.conf", "/var/lib/redis"]
+VOLUME ["/etc/redis", "/var/lib/redis"]
 
 # add launch script
 COPY ./resources/startup.sh /startup.sh

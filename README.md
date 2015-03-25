@@ -20,8 +20,8 @@ You can bind ports :
 
 You can mount volumes :
 
-* /etc/redis/redis.conf
-* /var/lib/redis
+* /etc/redis : conf
+* /var/lib/redis : data
 
 ## Usage
 
