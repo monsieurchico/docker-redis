@@ -11,7 +11,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # updates
 RUN \
     apt-get update && \
-    apt-get install -y --force-yes redis-server && \
+    apt-get install -y --force-yes redis-server redis-tools && \
     rm -rf /var/lib/apt/lists/*
 
 # expose ports
